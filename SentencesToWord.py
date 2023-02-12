@@ -13,7 +13,7 @@ words.append(sentences)
 for i in sentences.split() : 
     words.append(i)
 
-model = SentenceTransformer(r"C:\Users\smir1\Downloads\all-MiniLM-L12-v1")
+model = SentenceTransformer(r"your all-MiniLM-L12-v1 file")
 print("endcoding..")
 embeddings = model.encode(words)
 
